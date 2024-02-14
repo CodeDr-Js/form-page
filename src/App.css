@@ -1,0 +1,59 @@
+:root {
+  --primary-color:blue;
+  --dark-color:#222222;
+  --light-color: #f0f0f0;
+}
+
+.netprodasImg {
+  width: 70px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+
+ul li label{
+  cursor: pointer;
+}
+
+
+/* 
+
+ul li .check::before {
+  content: '';
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+  
+ 
+}
+
+input[type=radio]:checked ~ .check {
+  border: 1px solid var(--primary-color)
+}
+
+input[type=radio]:checked {
+  background: var(--primary-color);
+} */
+
+
+
+input[type=radio]:checked ~ .textPrimary{
+  color: var(--primary-color)
+}
+/* 
+input[type=radio]:checked ~ .textPrimary::before{
+  color: var(--primary-color)
+} */
+
+.checked {
+  border: 1px solid var(--primary-color); 
+}
+
+/* .check::before{
+  background-color: var(--primary-color);
+} */
+
+/* Question */
+.question{
+  width: 50%;
+}
